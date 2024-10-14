@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+p{
+    color: whitesmoke;
+    padding: 10px 30px;
+    font-size: 26px;
+    font-weight: 900;
+    text-align: justify;
+}
+
 #headTest{
     font-size: 100px;
     text-align: center;
