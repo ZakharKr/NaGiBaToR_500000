@@ -30,3 +30,62 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.palyeer{
+text-align: center;
+}
+
+.akvalayzer{
+    width: 60%;
+    height: 300px;
+}
+
+.palyeer h2{
+    color: white;
+}
+
+.akvalayzer{
+    width: 80%;
+    height: 100px;
+    background-color: aqua;
+    margin: 20px 10%;
+    border-radius: 15px;
+}
+
+.playercontrol button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 100px black;
+    outline:  none;
+    border: none;
+
+}
+
+.trackLine{
+    width: 90%;
+    height: 20px;
+    background-color: white;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.filledTrackLine{
+    height: 100%;
+    background-color: black;
+    width: 10px;
+}
+
+.volumeLine{
+    width: 10%;
+    height: 10px;
+    background-color: white;
+    margin: 5%;
+    cursor: pointer;
+}
+
+#filledVolumeLine{
+    height: 100%;
+    background-color: black;
+    width: 10px;
+}
