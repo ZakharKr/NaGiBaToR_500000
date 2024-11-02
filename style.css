@@ -3,21 +3,6 @@
     padding: 0;
 }
 
-p{
-    color: whitesmoke;
-    padding: 10px 30px;
-    font-size: 26px;
-    font-weight: 900;
-    text-align: justify;
-}
-
-#headTest{
-    font-size: 100px;
-    text-align: center;
-    color: red;
-    /* text-shadow: 7px 11px blue; */
-
-}
 html,body{
     height: 100%;
 }
@@ -31,61 +16,89 @@ main{
     background-size: cover;
 }
 
-.palyeer{
-text-align: center;
+#headTest{
+    text-align: center;
 }
 
-.akvalayzer{
-    width: 60%;
-    height: 300px;
+#playrContainer{
+    /* margin: 30px; */
+    /* position: fixed;
+    top: 100px;
+    right: 100px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    width: 40%;
+    overflow: hidden;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-image: url(./mp3/Instasamka\ -\ На\ Титанике\ \(feat.\ Лолита\).png)
 }
 
-.palyeer h2{
+#trackHeader{
+    padding: 1% 10%;
     color: white;
 }
 
-.akvalayzer{
-    width: 80%;
-    height: 100px;
-    background-color: aqua;
-    margin: 20px 10%;
-    border-radius: 15px;
+#trackLine{
+    width: 94%;
+    height: 10px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 20px;
+    opacity: 0.6;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
 }
 
-.playercontrol button{
+#filledTrackLine{
+    margin: 2px; 
+    width: 0;
+    height: 6px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+
+button{
     padding: 10px 20px;
     border-radius: 20px;
     background-color: whitesmoke;
     box-shadow: 100px black;
     outline:  none;
     border: none;
+    margin-bottom: 10px;
+    width: 30%;
 
 }
 
-.trackLine{
-    width: 90%;
-    height: 20px;
-    background-color: white;
-    margin: 5%;
-    cursor: pointer;
+button:hover{
+    background-color: whitesmoke;
+    box-shadow: 0 0 3px 5px whitesmoke;
 }
 
-.filledTrackLine{
-    height: 100%;
-    background-color: black;
-    width: 10px;
-}
-
-.volumeLine{
-    width: 10%;
+#volumeLine{
+    width: 30%;
     height: 10px;
-    background-color: white;
-    margin: 5%;
+    overflow: hidden;
+    border-radius: 20px;
+    opacity: 0.6;
+    background-color: transparent;
+    border: 1px solid white;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 #filledVolumeLine{
-    height: 100%;
-    background-color: black;
-    width: 10px;
+    margin: 2px; 
+    width: 100px;
+    height: 6px;
+    border-radius: 20px;
+    background-color: white;
 }
+
